@@ -13,3 +13,8 @@ total_summary <- suspension_coil_data %>% summarize(Mean = mean(PSI), Median = m
 
 lot_summary <- suspension_coil_data %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
 
+#T-tests on suspension coils 
+t.test(x = suspension_coil_data$PSI, mu = 1500) #psi v population mean
+t.test(x = suspension_coil_data$PSI, mu = 1500, subset = Manufacturing_Lot == "Lot1")
+t.test(x = suspension_coil_data$PSI, mu = 1500, subset = Manufacturing_Lot == "Lot2")
+t.test(x = suspension_coil_data$PSI, mu = 1500, subset = Manufacturing_Lot == "Lot3")
