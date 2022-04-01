@@ -18,3 +18,6 @@ The p-values for the all the t-tests on the suspension coils amounted to 0.06028
 [PSI Lot 1 v Population Mean]()
 [PSI Lot 2 v Population Mean]()
 [PSI Lot 3 v Population Mean]()
+
+## Study Design: MechaCar v. Competition
+In a statistical study to quantify how the MechaCar performs against the competition I would want to compare sample means across different metrics including metrics such as: cost, city and highway efficiency, horsepower, maintenance cost, saftey rating, etc. The best statistical test in order to compare sample means to determine which car performs better would be a two-sample t-test. The null hypothesis is that there is no statistical difference between the two sample means. The alternative hypothesis is that there is a statistical difference between the two sample means. The data that would be needed are performance metrics from MechaCar and performance metrics from the competition. Sample data from both populations should be sufficient. 
