@@ -6,3 +6,6 @@ Vehicle length, and ground clearance are statistically unlikely to provide rando
 The slope of the linear model cannot be considered 0 because the p-value of the linear model is 5.35e-11, which is much smaller than the assumed significance level of 0.05%. This means that the null hypothesis can be rejected and the slope of the linear model is not 0. 
 
 The r-squared value for this linear model is 0.7149 meaning that roughly 70% of the variability of the mpg can be explained by it. I believe this model does effectively predict the mpg of MechaCar prototypes given the low p-value, the strong r-squared value, and the number of varibales that provided non-random amounts of variance. 
+
+## Summary Statistics on Suspension Coils
+The current manufacturing data meets the design specifications that dictate that the variance of the suspension coils must not exceed 100 PSI across all manfucaturing lots when they are calculated together. However, when calculating by individual manufacturing lots, lot 3 does not meet the design spefications because the variance is 170.29. 
