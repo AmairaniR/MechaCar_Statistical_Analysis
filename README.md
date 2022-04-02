@@ -13,9 +13,9 @@ The current manufacturing data meets the design specifications that dictate that
 ![Lot Summary](https://github.com/AmairaniR/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
 ## T-test on Suspension Coils 
-The p-values for the all the t-tests on the suspension coils amounted to 0.06028. Assuming a significance level of 0.05%, there is not enough evidence to reject the null hypothesis and all of the means are statistically similar.
+The p-values for the t-tests on the suspension coils across all manufacturing lots amounted to 0.06028. Assuming a significance level of 0.05%, there is not enough evidence to reject the null hypothesis and all of the means are statistically similar. The same can be said for lots 1 and 2 whose p-values were 1 and 0.6072 respectively. Lot 3 was the only lot that had enough evidence to reject the null hypothesis because the p-value was below the significance level at 0.04168.
 ![PSI v. Population Mean](https://github.com/AmairaniR/MechaCar_Statistical_Analysis/blob/main/images/t_test_psi_v_population.png)
-![PSI Lot 1 v Population Mean](https://github.com/AmairaniR/MechaCar_Statistical_Analysis/blob/main/images/t_test_psi_lot1%20_v_poulation.png)
+![PSI Lot 1 v Population Mean](https://github.com/AmairaniR/MechaCar_Statistical_Analysis/blob/main/images/t_test_psi_lot1_v_population.png)
 ![PSI Lot 2 v Population Mean](https://github.com/AmairaniR/MechaCar_Statistical_Analysis/blob/main/images/t_test_psi_lot2_v_population.png)
 ![PSI Lot 3 v Population Mean](https://github.com/AmairaniR/MechaCar_Statistical_Analysis/blob/main/images/t_test_psi_lot3_v_population.png)
 
